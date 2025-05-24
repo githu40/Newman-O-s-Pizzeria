@@ -1,0 +1,86 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            text-align: center;
+        }
+        .header {
+            background-color: red;
+            color: white;
+            padding: 20px;
+            font-size: 22px;
+            font-weight: bold;
+            display: inline-block;
+        }
+        nav {
+            width: 100%;
+            background-color: red;
+        }
+        .description {
+            padding: 20px;
+            font-size: 18px;
+        }
+        .logo {
+            width: 200px;
+            height: auto;
+            background-color: #121215;
+        }
+        .main {
+            margin-bottom: 50px;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .buttons .buttontop {
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            margin: 5px;
+        }
+        .menu {
+            padding: 20px;
+            background-color: white;
+        }
+        .menu-item {
+            transition: 1s;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 10px auto;
+            width: 80%;
+            text-align: left;
+            color: black;
+        }
+        .menu-item:hover {
+            transition: 1s;
+            background-color: lightgray;
+        }
+        .buybutton {
+            transition: 1s;
+            height: 100px;
+            width: 200px;
+            font-size: 30px;
+            margin: 20px;
+            color: white;
+            background-color: red;
+            border-radius: 10px;
+        }
+        .buybutton:hover {
+            transition: 1s;
+            height: 112px;
+            width: 225px;
+            border-radius: 10px;
+            font-size: 35px;
+            background-color: crimson;
+        }
+        .other-section {
+            background-color: lightgray;
+        }
+        .footer {
+            background-color: red;
+            color: white;
+            padding: 10px;
+        }
